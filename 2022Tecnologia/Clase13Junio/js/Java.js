@@ -1,69 +1,56 @@
-// Viendo Arrays //
-edades = [18, 14, 15, 92, 78, 63];
+/* let n1 = 4;
+let n2 = 3;
 
-console.log(edades[2]);
-
-let nombres = ["Emanuel", "Sofia", "Santiago", "Godoy"];
-
-console.log(nombres);
-
-let correo = [
-    "Elfriki@300",
-    "sofi@hermosa.com",
-    "godoy@bajista.edu.co",
-    "santiago@viejo.co"
-];
-
-console.log(correo.length);
-
-let nombre = ["Emanuel", "Sofia", "Godoy", "Santiago", "Cristian"]
-let apellido = ["Gomez", "Restrepo", "Pastrana", "Florez", "Ramirez"]
-let edad = ["17", "17", "17", "20", "18"]
-let telefono = ["300", "305", "311", "090", "330"]
-let direccion = ["Cra 32", "Cr 39 E", "Cr 100", "Cr 0", "Cra 01"]
-
-console.log(nombre, apellido, edad, telefono, direccion.length);
-
-nombre.push("Luis");
-
-nombre.splice(0, 1);
-
-// Viendo For //
-
-for (let i = 0; i < nombre.length; i++) {
-
-    console.log(nombre[i] + " " + apellido[i] + " " + edad[i] + " " + telefono[i] + " " + direccion[i]);
-    console.log(`${nombre[i]} ${apellido[i]}  ${edad[i]}  ${telefono[i]}  ${direccion[i]}`);
+function suma() {
+    let sum = n1 + n2;
+    return sum;
 }
 
-nombre.forEach(element => {
-    console.log(`el nombre es ${element}`)
-});
+function resta(n1, n2) {
+    let rest = n1 - n2;
+    return rest;
+}
 
-// Viendo Objetos// 
+console.log(suma());
+console.log(resta(90, 10));
 
-let Persona = { "nombre": "Ryu", "apellido": "Hayabusa"};
+const fun = (mensa) => {
+    let su = n1 + n2;
+    return su + mensa;
+    I
+}
+console.log(fun("hola"));
 
-let Personaje = {
-    nombre: "Ryu",
-    apellido: "Hayabusa",
-    edad: 20,
-    ropa: "Azul",
-    Profesión: "Ninja",
-};
+const getNombre = () => "Sofi";
 
-let curso = [{
-    "nombre": "Adsi",
-    "duracion": "1 mes",
-    "valor": "100 millones"
-},
-{
-    "nombre": "levantamiento de pollitas",
-    "duracion": "1 dia",
-    "valor": "gratis"
-},
-{
-    "nombre": "git hub",
-    "duracion": "100 años",
-    "valor": "toda la vida"
-}];
+console.log(getNombre());
+
+function multiplicacion(n1, n2 = 30) {
+    return n1 * n2;
+}
+console.log(multiplicacion(6, 2))
+
+let multi = (n1, n2 = 40) => {
+    let res = n1 * n2;
+    let mensaje = `el resultado de la multiplicacion es:${res}`
+    return mensaje;
+}
+
+console.log(multi(10))
+*/
+
+// Contador //
+
+let contador = document.getElementById("caja");
+let total = 0;
+
+setInterval(()=>{
+    total += 1;
+    console.log(total);
+    contador.innerHTML = total;
+},1000)
+
+
+
+
+
