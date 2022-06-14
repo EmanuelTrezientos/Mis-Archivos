@@ -48,9 +48,4 @@ setInterval(()=>{
     total += 1;
     console.log(total);
     contador.innerHTML = total;
-},1000)
-
-
-
-
-
+},1000);
