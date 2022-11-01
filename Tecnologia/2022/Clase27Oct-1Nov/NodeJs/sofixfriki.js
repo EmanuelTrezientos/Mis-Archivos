@@ -1,6 +1,0 @@
-console.log("")
-console.log("Soy el friki")
-console.log("Y amo a sofia")
-console.log("")
-console.log("Siempre la amare pase lo que pase")
-console.log("")

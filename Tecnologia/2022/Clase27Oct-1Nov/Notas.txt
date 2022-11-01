@@ -28,3 +28,5 @@ A la hora de proteger la informacion se debe proteger por entornos, los cuales s
 qa.env = pruebas
 production.env = produccion
 development.env = desarrollo 
+
+// req/require es = cuando se haga una peticion, res/response es = responder con
