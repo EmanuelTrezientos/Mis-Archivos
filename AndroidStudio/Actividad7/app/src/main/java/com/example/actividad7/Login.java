@@ -7,7 +7,8 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Login extends AppCompatActivity {
+public class
+Login extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
